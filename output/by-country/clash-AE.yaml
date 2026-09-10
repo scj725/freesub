@@ -17,33 +17,17 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  type: vless
-  server: 92.113.124.204
-  port: 18443
-  uuid: 89c1a02f-cef2-4d73-af87-21f894aa3cd5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
 rules:
 - MATCH,PROXIES
