@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
   type: vless
-  server: 164.92.137.46
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 213.176.112.136
+  port: 5222
+  uuid: 8d955d71-ed5d-4f4c-ae68-42d120f06861
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
   network: ws
   ws-opts:
-    path: '%2Fbt%2Fstreaming%2Fad%3Fed%3D2560'
+    path: /@Marisa_kristi
     headers:
-      Host: cdn8848.776676.xyz
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
