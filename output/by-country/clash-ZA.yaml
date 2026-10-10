@@ -24,17 +24,12 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: safari
 - name: 🇿🇦 ZA 03 - xiaohe
-  type: vless
-  server: 34.35.186.228
+  type: ss
+  server: 102.37.156.224
   port: 443
-  uuid: 8d65c8a7-4876-4556-bb6a-feccfb46ee81
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bSN0cv0VMxmYZsNsMkkLndOTHZu74C1htJ2M71QMaVE
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇿🇦 ZA 04 - xiaohe
   type: vless
   server: 34.35.186.228
@@ -46,7 +41,7 @@ proxies:
   reality-opts:
     public-key: bSN0cv0VMxmYZsNsMkkLndOTHZu74C1htJ2M71QMaVE
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇿🇦 ZA 05 - xiaohe
   type: vless
   server: 34.35.186.228
