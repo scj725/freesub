@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+- name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 130.94.1.150
+  server: 188.114.97.6
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: w2p6.vpnpolar.online
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /beeline?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
-      Host: lucasjow.us.ci
+      Host: w2p6.vpnpolar.online
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇸🇨 SC 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇸🇨 SC 01 - xiaohe
 rules:
 - MATCH,PROXIES
